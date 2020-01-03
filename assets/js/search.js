@@ -19,10 +19,9 @@ function addLoadingAnimation(selector) {
 }
 $(document).ready(function(){
   $('.sidenav').sidenav();
-  //add loading animation
-
-  // loadMovies(1)
 });
+
+
 
 function loadMovies(query) {
   let baseUrl = 'https://cors-anywhere.herokuapp.com/https://api.gdriveplayer.us/v1/movie/search?title='+query+'&limit=20'
