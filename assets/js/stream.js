@@ -24,7 +24,7 @@ $.ajax({
   dataType : 'json',
   success: function(result) {
     embedVideoUrl = 'http://database.gdriveplayer.us/player.php?imdb='+imdb
-    $('.movie-media').attr('src', embedVideoUrl)
+    $('.movie-media').attr('src', result.player_url)
     $('.title').text('title : '+result.Title)
     $('.released').text('released : '+result.Released)
     $('.duration').text('duration : '+result.Runtime)
