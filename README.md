@@ -1,4 +1,4 @@
-the first time I learned REST API with JavaScript framework
+website to streaming movies for free!
 
 
-[DEMO](https://gagassss.github.io/get-movies-info/)
+[Go to website](https://gagassss.github.io/website-streaming-film/)
