@@ -6,6 +6,10 @@ function getUrlVars() {
   return vars;
 }
 
+$(document).ready(function(){
+  $('.sidenav').sidenav();
+});
+
 function getUrlParam(parameter, defaultvalue){
   let urlparameter = defaultvalue;
   if(window.location.href.indexOf(parameter) > -1){
