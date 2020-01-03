@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>stream ur fuckin favorite movies for free</title>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body class="blue-grey darken-4">    
+    <nav class="grey darken-4">
+      <div class="container">
+        <div class="nav-wrapper ">
+          <a href="index.html" class="brand-logo">fuckin title</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="index.html">Newest</a></li>
+            <li><a href="search.html">Search Movie</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="index.html">Newest</a></li>
+      <li><a href="search.html">Search Movie</a></li>
+    </ul>
+
+    <div class="container white-text mt-5">
+      <div class="row">
+        <div class="col s12 input-field">
+          <i class="material-icons prefix">mode_edit</i>
+          <input id="icon_prefix" type="text" class="validate search-input white-text">
+          <label for="icon_prefix">Search...</label>
+        </div>
+        <div class="col s12 align-center center-align">
+          <a class="waves-effect waves-light btn blue-grey btn-search">Search</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s12 xl12 l12 m12 mt-5 mb-2">
+        <h4 class="white-text result-text"><strong></strong> </h4>
+        <p class="white-text result-amount"></p>
+      </div>
+    </div>
+    <div class="row movies-list">
+      
+    </div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/materialize.js"></script>
+    <script src="assets/js/search.js"></script>
+  </body>
+</html>
+      
