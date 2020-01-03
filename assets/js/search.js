@@ -31,7 +31,6 @@ function loadMovies(query) {
     type : 'get',
     dataType : 'json',
     success: function(docs) {
-      console.log(docs.length)
       if (docs == null) {
         $('.load-animation').html('')
         $('.loading').html('')  
